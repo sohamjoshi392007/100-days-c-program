@@ -24,7 +24,7 @@ int main() {
             fine = days * 2;
         } 
         else if (days <= 10) {
-            // First 5 days at ₹2/day + remaining days up to 10 at ₹4/day
+          
             fine = (5 * 2) + (days - 5) * 4;
         } 
         else {
