@@ -4,7 +4,7 @@
 int main() {
     int n;
     
-    // Read the number of elements
+
     if (scanf("%d", &n) != 1 || n <= 0) {
         return 0;
     }
@@ -14,7 +14,7 @@ int main() {
     int negative_count = 0;
     int zero_count = 0;
     
-    // Read each element on the fly and categorize it
+
     for (int i = 0; i < n; i++) {
         scanf("%lld", &current);
         
@@ -27,7 +27,7 @@ int main() {
         }
     }
     
-    // Print the final counts in the required format
+
     printf("Positive=%d, Negative=%d, Zero=%d\n", positive_count, negative_count, zero_count);
     
     return 0;
