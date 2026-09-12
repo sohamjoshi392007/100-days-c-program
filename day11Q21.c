@@ -4,10 +4,10 @@
 int main() {
     int month;
     
-    // Read the month number from input
+
     scanf("%d", &month);
     
-    // Use switch-case to handle each month
+
     switch (month) {
         case 1:
             printf("January, 31 days\n");
