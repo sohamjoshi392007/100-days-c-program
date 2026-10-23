@@ -1,4 +1,4 @@
-//Q120: Write a program to take a string input. Change it to sentence case.
+//Q122: Write a program to take a string input. Change it to sentence case.
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -10,7 +10,7 @@ int main() {
 
 
     line[strcspn(line, "\r\n")] = '\0';
-
+ 
 
     char *start = strchr(line, '=');
     char *ptr = start ? start + 1 : line;
